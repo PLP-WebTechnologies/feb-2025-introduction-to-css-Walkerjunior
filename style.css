@@ -1,0 +1,50 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Selector 1: Element Selector */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Selector 2: Class Selector */
+.intro-text {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Selector 3: ID Selector */
+#styled-box {
+    background-color: #4528d6;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 50%;
+    margin: 20px auto;
+    border: 2px solid #013b04;
+}
+
+/* Style the image */
+.styled-image {
+    width: 300px;
+    height: auto;
+    border: 5px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* Footer Styling */
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    font-size: 14px;
+}
